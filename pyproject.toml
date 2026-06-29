@@ -1,0 +1,24 @@
+[project]
+name = "umg-tiktok-blackout"
+version = "0.1.0"
+description = "A tutorial project analyzing the causal impact of the 2024 UMG-TikTok blackout on Spotify premium streams using SCM, DiD, and CausalImpact."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "pandas>=2.0.0,<3.0.0",
+    "numpy>=1.24.0",
+    "scipy>=1.10.0",
+    "matplotlib>=3.7.0",
+    "seaborn>=0.12.0",
+    "statsmodels>=0.14.0",
+    "python-dotenv>=1.0.0",
+    "kaggle>=1.5.16",
+    "pycausalimpact>=0.1.1",
+    "openpyxl>=3.1.0",
+    "ipykernel>=6.25.0",
+    "notebook>=7.0.0"
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

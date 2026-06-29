@@ -1,0 +1,22 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+
+# Virtual environments
+.venv
+
+# Secrets
+.env
+
+# Data & Cache
+data/cache/
+.DS_Store
+
+
+# src files
+src/create_notebook.py
